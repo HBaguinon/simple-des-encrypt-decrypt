@@ -6,12 +6,16 @@
 * PROFESSOR: DR. ZHANG                                                         *
 * PROJECT: #2                                                                  *
 * FILENAME: binaryTest.cpp                                                     *
-* PURPOSE: This program is the first project. The purpose of the project is to *
-*          decrypt a message which was encrypted using a monoalphabetic cipher.*
-*          The first program will read in the ciphertext file and analyze it   *
-*          for the frequency of letters. The second program will allow the user*
-*          to manually decrypt the message by substituing individual letters in*
-*          the ciphertext, eventually leading to the decrypted message.        *
+* PURPOSE: This program is the second project. The purpose of the project is to*
+*          study the DES encryption algorithm by encrypting user text input    *
+*          with the Simple DES encryption algorithm. This program will convert *
+*          each character in the input into an 8-bit binary ciphertext, which  *
+*          is created by first creating two keys based on user input, and then *
+*          putting the text input through a series of manipulations of its bits*
+*          such as permutation, rearrangement, shifts, swaps, expansions, and  *
+*          xor functions. The final output is 8-bit binary ciphertext.         *
+*          This file is specifically to test how this version of C++ handles   *
+*          conversion from char to int and concatenation/addition of chars.    *
 *******************************************************************************/
 
 #include <iostream>				// for i/o functions
